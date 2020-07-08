@@ -1,0 +1,201 @@
+
+
+/*==================INDEX===================*/
+
+.navbar{
+	background: #000;
+}
+.navbar .nav-item{
+	padding-right: 15px;
+}
+.navbar .nav-item:last-child{
+	padding-right: none;
+}
+.navbar .nav-item a{}
+
+
+
+.carousel-item img{
+	width: 100%;
+	height: 450px;
+}
+
+
+
+
+#mydiv3 .fa{
+	font-size: 50px;
+
+}
+
+
+
+
+#mydiv4{
+	background:url(../img/pc.jpeg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 250px;
+	position: relative;
+
+}
+#mydiv4 .dark-ovarlay{
+	background: rgba(0, 0, 0, 0.7);
+	min-height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+
+#mydiv6{
+    background:url(../img/people.jpeg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 250px;
+	position: relative;
+
+}
+#mydiv6 .dark-ovarlay2{
+	background: rgba(0, 0, 0, 0.7);
+	min-height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	}
+#mydiv6 .fa{
+   font-size: 50px;
+   color: #fff;
+}	
+
+
+
+#mydiv7 img{
+	min-height:250px;
+}
+
+#mydiv8{
+background: #343A40;
+}
+#mydiv8 form input{
+	border-radius: 5px;
+
+}
+#mydiv8 .form-group{
+	padding-right: 15px;
+}
+#mydiv8 .form-group:last-child{
+	padding-right: 0;
+}
+
+#mydiv9{
+	background: black;
+}
+
+/*==================ABOUT===================*/
+
+
+#about1{
+	background-image: url(../img/image2.jpeg);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#about2 img{
+	width: 350px;
+	height:350px;
+}
+
+#about3 .fa{
+  font-size: 50px;
+}
+
+#about4 .slick-prev,
+.slick-next{
+   background:#000;
+   color: #fff; 
+   font-size: bold;
+}
+#about4 .slick-prev,
+.slick-next:hover{
+	cursor: pointer;
+}
+
+
+
+/*==================BLOG===================*/
+
+
+
+#blog2 .card-body a {
+	border-radius: 4px;
+}
+#blog2 .card-body a:hover {
+	background-color: black;
+}
+#blog2 .card-body img{
+	height: 250px;
+	width: 400px;
+
+}
+
+
+
+/*==================RESPONSIVE===================*/
+
+
+
+
+@media(max-width:991px){
+	
+	
+	}
+	
+}
+@media(max-width:768px){
+	#blog2 .card-body img{
+	height: 150px;
+	width: 250px;
+
+}
+#services2 .card{
+	margin-bottom: 15px;
+}
+
+
+}
+
+
+@media(max-width:575px){
+	#mydiv4{
+		min-height:280px;
+		
+	}
+	#blog2 .card-body img{
+	height: 250px;
+	width: 480px;
+
+
+}
+
+
+}
+@media(max-width:480px){
+	#mydiv4{
+		min-height:400px;
+	}
+	#my-carousel img{
+		min-height:600px;
+	}
+}
